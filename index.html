@@ -68,10 +68,32 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+			<div class="side">
+                <div>
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    博主信息
+                </div>
+				<div align="center"  style="word-wrap:break-word" >
+                	<img src="b.jpg" width=150/>
+					<p>Shawn.CHO</p>
+					<p><font face="Century Gothic" color="#B6B6B4"><small>Do something hard, and you can always make process!</small></font></p>
+					<p class="contact">
+						与我联系: {% if site.github_username %}
+						<a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
+						<a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
+						<a href="http://weibo.com/{{site.weibo_username}}" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a> {% endif %} {% if site.zhihu_username %}
+						<a href="https://www.zhihu.com/people/{{site.zhihu_username}}" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a> {% endif %} {% if site.twitter_username %}
+						<a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
+						<a href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  {% if site.linkedIn_username %}
+						<a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
+						<a href=" https://dribbble.com/{{site.dribbble_username}}" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a> {% endif %}
+					</p>
+				</div>
+            </div>
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Recent Posts
+                    最新动态
                 </div>
                 <ul class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
@@ -84,7 +106,7 @@ layout: default
             <div class="side ">
                 <div>
                     <i class="fa fa-th-list"></i>
-                    Categories
+                    归档
                 </div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
@@ -103,7 +125,7 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-tags"></i>
-                    Tags
+                    标签
                 </div>
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
