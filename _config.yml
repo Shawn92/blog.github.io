@@ -9,16 +9,16 @@
 title: Shawn.CHO
 brief-intro: 记录成长的每一天
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://shawn92.github.io/blog.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username:
 facebook_username: 
-github_username:  
-email: 
-weibo_username: 
+github_username: Shawn92 
+email: shawn.cho.chn@gmail.com
+weibo_username: 传说中的北方jiang
 zhihu_username: 
 linkedIn_username: 
 dribbble_username:

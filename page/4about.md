@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我
+title: 关于博主
 permalink: /about/
 icon: heart
 type: page
