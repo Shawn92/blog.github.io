@@ -8,8 +8,8 @@
 # Site settings
 title: Shawn.CHO
 brief-intro: 记录成长的每一天
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shawn92.github.io/blog.github.io" # the base hostname & protocol for your site
+baseurl: "/blog.github.io" # the subpath of your site, e.g. /blog
+url: "https://shawn92.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
