@@ -2,15 +2,18 @@
     <div class="wrapper">
         <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
         <font face="微软雅黑"><small>{{site.brief-intro}}</small></font>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
             <ul>
                 <li>
                     {% if page.url == '/' %}
                     <a class="active" href="{{site.baseurl}}/">
+						<i class="fa fa-home"></i>主页1{%page.url == '/'%}
                         {% else %}
                     <a href="{{site.baseurl}}/">
+						<i class="fa fa-home"></i>主页2
                     {% endif %}
-                        <i class="fa fa-home"></i>主页
+                        
                     </a>
                 </li>
 
