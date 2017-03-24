@@ -54,7 +54,7 @@ int countBitDiff(int m, int n) {
 	return ones;
 }
 ```    
-## 解法二：借助n&(n-1)**
+## 解法二：借助n&(n-1)
 
 第二种方法比较特殊，用到了按位与特一个特殊性质，即：
 
