@@ -34,7 +34,7 @@ layout: default
         {{content}}
         </article>
         <hr>
-
+<!--
         {% assign hasSimilar = '' %}
         {% for post in site.related_posts %}
             {% assign postHasSimilar = false %}
@@ -61,10 +61,10 @@ layout: default
         {% if hasSimilar.size > 0 %}
             </ul>
         {% endif %}
-
+-->
         {% include previousAndNext.html %}
 
-        <h2 id="comments">Comments</h2>
+        <!--h2 id="comments">Comments</h2-->
         {% include comments.html %}
 
 
@@ -75,12 +75,12 @@ layout: default
 
             <!-- Content -->
             <div class="side content">
-                <div>
-                    Content
+                <div  style="text-align:center">
+                    目&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp录
                 </div>
                 <ul id="content-side" class="content-ul">
-                    <li><a href="#similar_posts">Similar Posts</a></li>
-                    <li><a href="#comments">Comments</a></li>
+                    <!--li><a href="#similar_posts">Similar Posts</a></li-->
+                    <!--li><a href="#comments">Comments</a></li-->
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
