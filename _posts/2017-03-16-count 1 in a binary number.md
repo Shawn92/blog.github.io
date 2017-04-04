@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "统计二进制数中“1”的个数"
-categories: JavaScript
+categories: 代码笔记
 tags:  C++ 编程
 author: Dora
 ---
