@@ -1,8 +1,15 @@
-##使用双重指针实现单向链表的insert操作
+layout: post
+title:  "浣跨敤澶氶噸鎸囬拡瀹炵幇鍗曢摼琛ㄧ殑鎻掑叆鎿嶄綔"
+categories: 浠ｇ爜绗旇
+tags: 鎸囬拡 閾捐〃
+author: Dora
+---
+
+* content
+{:toc}
 
 
-
-···cpp
+```cpp
 typedef struct NODE{
 	int value;
 	struct NODE *next;
