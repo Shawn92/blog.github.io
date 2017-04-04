@@ -8,7 +8,7 @@ SOLARIZED HEX      ROLE
 --------- -------- ------------------------------------------
 base01    #586e75  body text / default code / primary content
 base1     #93a1a1  comments / secondary content
-base3     #fdf6e3  backgroundUltraEdit
+base3     #fdf6e3  background
 orange    #cb4b16  constants
 red       #dc322f  regex, special keywords
 blue      #268bd2  reserved keywords
@@ -51,7 +51,7 @@ pre {
     .c { color: #93a1a1 } /* Comment */
     .err{ color: #586e75 } /* Error */
     .g{ color: #586e75 } /* Generic */
-    .k{ color: #996699 } /* Keyword */
+    .k{ color: #663366 } /* Keyword */
     .l{ color: #586e75 } /* Literal */
     .n{ color: #586e75 } /* Name */
     .o{ color: #859900 } /* Operator */
