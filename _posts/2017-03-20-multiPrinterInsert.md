@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "使用多重指针实现单链表的插入操作"
+title:  "使用多重指针实现单链表的插入"
 categories: 代码笔记
 tags: 指针 链表 
 author: Dora
