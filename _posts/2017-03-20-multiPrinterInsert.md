@@ -17,7 +17,7 @@ author: Dora
 
 
 
-##代码
+## 代码
 ```cpp
 typedef struct NODE{
 	int value;
