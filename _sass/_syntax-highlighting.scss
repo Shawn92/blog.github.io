@@ -34,8 +34,8 @@ pre {
      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
      white-space: pre-wrap;      /* current browsers */
      > code {
-        font-family: Consolas;
-        /*margin: 0;
+        /*font-family: inherit;
+        margin: 0;
          padding: 0;
         font-size: 13px;
         color:#000000;
